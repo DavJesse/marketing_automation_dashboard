@@ -1,0 +1,54 @@
+{
+  "project_setup": {
+    "google_cloud_project": {
+      "status": "created",
+      "billing_enabled": true,
+      "enabled_apis": [
+        "Cloud Functions",
+        "Pub/Sub",
+        "Cloud Scheduler",
+        "BigQuery",
+        "Secret Manager",
+        "Cloud Storage"
+      ]
+    }
+  },
+  "infrastructure": {
+    "bigquery": {
+      "dataset_id": "marketing_data"
+    },
+    "cloud_storage": {
+      "bucket": "marketing_staging"
+    },
+    "pubsub": {
+      "topic": "daily-fetch"
+    },
+    "cloud_scheduler": {
+      "job_name": "daily-fetch-schedule",
+      "frequency": "0 0 * * *",
+      "timezone": "Africa/Nairobi",
+      "target": "Pub/Sub",
+      "target_topic": "daily-fetch"
+    },
+    "service_account": {
+      "name": "marketing-pipeline-sa",
+      "roles": [
+        "roles/bigquery.dataEditor",
+        "roles/storage.objectAdmin",
+        "roles/secretmanager.secretAccessor",
+        "roles/cloudfunctions.invoker"
+      ]
+    }
+  },
+  "secrets": {
+    "stored_in_secret_manager": true,
+    "examples": [
+      "google_ads_client_id",
+      "google_ads_client_secret",
+      "google_ads_refresh_token",
+      "youtube_api_key",
+      "meta_access_token"
+    ],
+    "access_granted_to": "marketing-pipeline-sa"
+  }
+}

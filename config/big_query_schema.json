@@ -1,0 +1,20 @@
+{
+  "youtube": {
+    "table_id": "YOUR_PROJECT_ID.marketing_data.youtube_stats",
+    "schema": [
+      { "name": "date", "type": "DATE", "mode": "REQUIRED" },
+      { "name": "channel_id", "type": "STRING", "mode": "NULLABLE" },
+      { "name": "video_id", "type": "STRING", "mode": "NULLABLE" },
+      { "name": "views", "type": "INTEGER", "mode": "NULLABLE" },
+      { "name": "impressions", "type": "INTEGER", "mode": "NULLABLE" },
+      { "name": "clicks", "type": "INTEGER", "mode": "NULLABLE" },
+      { "name": "estimated_minutes_watched", "type": "INTEGER", "mode": "NULLABLE" },
+      { "name": "ctr", "type": "FLOAT", "mode": "NULLABLE" },
+      { "name": "average_view_duration", "type": "FLOAT", "mode": "NULLABLE" },
+      { "name": "traffic_source_type", "type": "STRING", "mode": "NULLABLE" },
+      { "name": "device_type", "type": "STRING", "mode": "NULLABLE" },
+      { "name": "country", "type": "STRING", "mode": "NULLABLE" },
+      { "name": "loaded_at", "type": "TIMESTAMP", "mode": "NULLABLE" }
+    ]
+  }
+}
