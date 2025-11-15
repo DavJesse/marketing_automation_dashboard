@@ -2,5 +2,5 @@ site_name: Marketing Automation Dashboard
 nav:
   - Home: index.md
   - API: api.md
-theme: readthedocs
+theme: material
 dev_addr: '0.0.0.0:8000'
