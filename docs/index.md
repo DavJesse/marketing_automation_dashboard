@@ -27,7 +27,7 @@ The pipeline is designed to be a serverless, event-driven architecture running o
 
 ## Getting Started
 
-Please refer to the main [README.md](../README.md) for instructions on how to set up and install the project.
+Please refer to the main [README.md](https://github.com/jesse/marketing-automation-dashboard/blob/main/README.md) for instructions on how to set up and install the project.
 
 ## Configuration
 
@@ -46,14 +46,14 @@ The project is configured through the following files:
 
 ## Running the Pipeline
 
-Please refer to the main [README.md](../README.md) for instructions on how to run the pipeline locally or deploy it to Google Cloud.
+Please refer to the main [README.md](https://github.com/jesse/marketing-automation-dashboard/blob/main/README.md) for instructions on how to run the pipeline locally or deploy it to Google Cloud.
 
 ## Testing
 
-Please refer to the main [README.md](../README.md) for instructions on how to run the tests.
+Please refer to the main [README.md](https://github.com/jesse/marketing-automation-dashboard/blob/main/README.md) for instructions on how to run the tests.
 
 ## Contributing
 
-We welcome contributions from the community. Please read our [CONTRIBUTING.md](../CONTRIBUTING.md) file for guidelines on how to contribute to the project.
+We welcome contributions from the community. Please read our [CONTRIBUTING.md](https://github.com/jesse/marketing-automation-dashboard/blob/main/CONTRIBUTING.md) file for guidelines on how to contribute to the project.
 
-We also have a [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md) that we expect all contributors to adhere to.
+We also have a [CODE_OF_CONDUCT.md](https://github.com/jesse/marketing-automation-dashboard/blob/main/CODE_OF_CONDUCT.md) that we expect all contributors to adhere to.
