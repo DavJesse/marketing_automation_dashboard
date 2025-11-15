@@ -3,3 +3,4 @@ nav:
   - Home: index.md
   - API: api.md
 theme: readthedocs
+dev_addr: '0.0.0.0:8000'
