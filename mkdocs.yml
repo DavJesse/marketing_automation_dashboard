@@ -1,0 +1,5 @@
+site_name: Marketing Automation Dashboard
+nav:
+  - Home: index.md
+  - API: api.md
+theme: readthedocs
